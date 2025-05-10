@@ -1,0 +1,113 @@
+.
+├── app
+│   ├── api
+│   │   ├── auth
+│   │   ├── notifications
+│   │   ├── register
+│   │   ├── tasks
+│   │   ├── teams
+│   │   ├── test-file-upload
+│   │   ├── test-upload
+│   │   └── uploads
+│   ├── dashboard
+│   │   ├── layout.tsx
+│   │   ├── loading.tsx
+│   │   ├── page.tsx
+│   │   ├── tasks
+│   │   └── teams
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── loading-demo
+│   │   └── page.tsx
+│   ├── login
+│   │   └── page.tsx
+│   ├── page.tsx
+│   ├── providers.tsx
+│   ├── register
+│   │   └── page.tsx
+│   ├── settings
+│   │   └── loading.tsx
+│   └── test-upload
+│       └── page.tsx
+├── components
+│   ├── dashboard
+│   │   ├── QuickActions.tsx
+│   │   ├── RecentTasks.tsx
+│   │   ├── TaskStatistics.tsx
+│   │   ├── TeamOverview.tsx
+│   │   ├── TeamTasksSection.tsx
+│   │   └── yourTeams.tsx
+│   ├── LoadingPage.tsx
+│   ├── Navbar.tsx
+│   ├── NotificationDropdown.tsx
+│   ├── Sidebar.tsx
+│   ├── tasks
+│   │   ├── AttachmentList.tsx
+│   │   ├── AttachmentUpload.tsx
+│   │   ├── SubTaskInput.tsx
+│   │   └── TaskCard.tsx
+│   ├── teams
+│   │   ├── TeamMembersTable.tsx
+│   │   └── TeamTasksTable.tsx
+│   └── ui
+│       ├── alert-dialog.tsx
+│       ├── avatar.tsx
+│       ├── badge.tsx
+│       ├── button.tsx
+│       ├── calendar.tsx
+│       ├── card.tsx
+│       ├── checkbox.tsx
+│       ├── dropdown-menu.tsx
+│       ├── form.tsx
+│       ├── input.tsx
+│       ├── label.tsx
+│       ├── loading-button.tsx
+│       ├── loading-spinner.tsx
+│       ├── navigation-menu.tsx
+│       ├── popover.tsx
+│       ├── progress.tsx
+│       ├── select.tsx
+│       ├── sheet.tsx
+│       ├── skeleton.tsx
+│       ├── table.tsx
+│       ├── tabs.tsx
+│       └── textarea.tsx
+├── components.json
+├── lib
+│   ├── actions
+│   │   ├── getTeamTasks.ts
+│   │   └── getYourTeams.ts
+│   ├── auth.ts
+│   ├── db.ts
+│   ├── utils.ts
+│   └── validations
+│       └── auth.ts
+├── middleware.ts
+├── next.config.ts
+├── next-env.d.ts
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+├── prisma
+│   └── schema.prisma
+├── public
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── grid-pattern.svg
+│   ├── next.svg
+│   ├── uploads
+│   │   ├── 1746488051725_d8bc4bf5.png
+│   │   ├── test_1746488156884_Screenshot From 2025-05-05 22-56-11.png
+│   │   ├── test_1746530255442_Screenshot From 2025-05-04 19-24-41.png
+│   │   └── test-file.txt
+│   ├── vercel.svg
+│   └── window.svg
+├── README.md
+├── structure.txt
+├── tailwind.config.js
+├── tsconfig.json
+└── types
+    └── next-auth.d.ts
+
+31 directories, 80 files
